@@ -1,14 +1,17 @@
 {
   "resources": [
     {"id":{"name":"PlayerAnimationSprite","path":"scripts/PlayerAnimationSprite/PlayerAnimationSprite.yy",},"order":1,},
+    {"id":{"name":"Object6","path":"objects/Object6/Object6.yy",},"order":5,},
     {"id":{"name":"spr_radio","path":"sprites/spr_radio/spr_radio.yy",},"order":7,},
     {"id":{"name":"sfloor","path":"sprites/sfloor/sfloor.yy",},"order":0,},
     {"id":{"name":"snd_Collectible","path":"sounds/snd_Collectible/snd_Collectible.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
     {"id":{"name":"oJumpThroughPlatform","path":"objects/oJumpThroughPlatform/oJumpThroughPlatform.yy",},"order":0,},
     {"id":{"name":"spr_playerRun","path":"sprites/spr_playerRun/spr_playerRun.yy",},"order":6,},
+    {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":4,},
     {"id":{"name":"scr_jumpThroughCollisions","path":"scripts/scr_jumpThroughCollisions/scr_jumpThroughCollisions.yy",},"order":5,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
+    {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":8,},
     {"id":{"name":"scr_collisions","path":"scripts/scr_collisions/scr_collisions.yy",},"order":2,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":4,},
     {"id":{"name":"scr_jumpCode","path":"scripts/scr_jumpCode/scr_jumpCode.yy",},"order":4,},
