@@ -1,6 +1,11 @@
 {
   "resources": [
-    {"id":{"name":"spr_jump","path":"sprites/spr_jump/spr_jump.yy",},"order":0,},
+    {"id":{"name":"spr_enemyIdle","path":"sprites/spr_enemyIdle/spr_enemyIdle.yy",},"order":0,},
+    {"id":{"name":"spr_enemyRun","path":"sprites/spr_enemyRun/spr_enemyRun.yy",},"order":1,},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":5,},
+    {"id":{"name":"Spr_Idle","path":"sprites/Spr_Idle/Spr_Idle.yy",},"order":2,},
+    {"id":{"name":"Spr_Run","path":"sprites/Spr_Run/Spr_Run.yy",},"order":3,},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
