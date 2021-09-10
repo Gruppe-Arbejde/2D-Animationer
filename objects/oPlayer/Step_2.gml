@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 scr_controls();
-inputDirection = point_direction(0,0,right-left, 0);
-	inputMagnitude = (right - left != 0);
+scr_controls();
+
 
 //if (y > room_height)
 //{
@@ -19,28 +19,27 @@ if (y > room_height)
 
 #region control the player horizontal movement
 
-if(right)
+if(right) //changes speed and sprite to run animation
 {
 	hspd += moveSpd;
+	sprite_index = spriteRun;
 }
-else if(left)
+else if(left) //changes speed and sprite to run animation
 {
 	hspd += -moveSpd;
+	sprite_index = spriteRunLeft;
 }
-else
+else if (leftReleased) //changes speed to 0 and sprite to idle
 {
 	hspd = 0;
+	sprite_index = spriteIdleLeft;
+}
+else if (rightReleased) //changes speed to 0 and sprite to idle
+{
+	hspd = 0;
+	sprite_index = spriteIdle;
 }
 
-//if (gamepad_axis_value(4, gp_axislh) > 0.2){
-//    hspd += moveSpd;
-//} else if (gamepad_axis_value(4, gp_axislh) < -0.2){
-//	hspd += -moveSpd;
-//}
-//else
-//{
-//	hspd = 0;
-//}
 
 #endregion
 
@@ -87,14 +86,6 @@ scr_collisions();
 
 #endregion
 
-//Update sprite index
-var _oldsprite = sprite_index;
-if (inputMagnitude != 0)
-{
-	direction = inputDirection;
-	sprite_index = spriteRun;
-}else sprite_index = spriteIdle;
-if(_oldsprite != sprite_index) localFrame = 0;
 
 var getId = collision_rectangle(bbox_left, bbox_top-50, bbox_right, bbox_bottom-8, oJumpThroughPlatform, false, false) ;
 if(getId != noone)

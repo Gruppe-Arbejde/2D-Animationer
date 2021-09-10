@@ -6,8 +6,8 @@ function scr_controls() {
 	down = keyboard_check(ord("S")); //or gamepad_button_check_pressed(4, gp_face2));
 	jump = keyboard_check_pressed(vk_space);
 	jumpReleased = keyboard_check_released(vk_space); //or gamepad_button_check_pressed(4, gp_face4);
-	//joyJump = gamepad_button_check_pressed(4, gp_face4)
-	
+	leftReleased = keyboard_check_released(ord("A")); 
+	rightReleased = keyboard_check_released(ord("D")); 
 	
 	keyboard_set_map(right, vk_right);
 	keyboard_set_map(left, vk_left);

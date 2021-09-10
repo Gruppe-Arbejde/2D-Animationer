@@ -6,13 +6,12 @@ GRAV = 0.8;
 moveSpd= 2.0;
 hspd = 0;
 vspd = 0;
-jumpForce = -20;
+jumpForce = -18;
 objectShowVspd = noone;
 
-spriteIdle = spr_player; //animation for iding
+spriteIdle = spr_playerIdle; //animation for iding
+spriteIdleLeft = spr_playerIdleLeft; //animation for iding
+spriteRunLeft = spr_playerRunLeft;
 spriteRun = spr_playerRun; //animation for running
-//spriteJump = spr_playerJump; //animation for jumping
+spriteJump = spr_jump; //animation for jumping
 localFrame = 0;
-
-//audio_stop_all();
-//audio_play_sound(snd_hell, 100, true);
