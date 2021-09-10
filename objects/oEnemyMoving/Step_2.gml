@@ -8,6 +8,7 @@ y += moveY;
 if (goingToStart && point_distance(x,y,startX,startY)< currentSpeed) {
 	goingToStart = false;
 	currentSpeed = 0;
+	sprite_index = spr_enemyRunLeft;
 	alarm[0] = waitTime;
 }
 
@@ -15,6 +16,7 @@ if (goingToStart && point_distance(x,y,startX,startY)< currentSpeed) {
 else if (!goingToStart && point_distance(x,y,endX,endY)< currentSpeed) {
 	goingToStart = true;
 	currentSpeed = 0;
+	sprite_index = spr_enemyRun;
 	alarm[0] = waitTime;
 }
 

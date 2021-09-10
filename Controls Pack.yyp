@@ -6,6 +6,7 @@
     {"id":{"name":"snd_Collectible","path":"sounds/snd_Collectible/snd_Collectible.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
     {"id":{"name":"spr_enemyIdle","path":"sprites/spr_enemyIdle/spr_enemyIdle.yy",},"order":20,},
+    {"id":{"name":"spr_enemyRunLeft","path":"sprites/spr_enemyRunLeft/spr_enemyRunLeft.yy",},"order":23,},
     {"id":{"name":"spr_playerIdle","path":"sprites/spr_playerIdle/spr_playerIdle.yy",},"order":16,},
     {"id":{"name":"oJumpThroughPlatform","path":"objects/oJumpThroughPlatform/oJumpThroughPlatform.yy",},"order":0,},
     {"id":{"name":"spr_playerRunLeft","path":"sprites/spr_playerRunLeft/spr_playerRunLeft.yy",},"order":18,},
