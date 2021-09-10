@@ -6,7 +6,7 @@ GRAV = 0.8;
 moveSpd= 2.0;
 hspd = 0;
 vspd = 0;
-jumpForce = -15;
+jumpForce = -20;
 objectShowVspd = noone;
 
 spriteIdle = spr_player; //animation for iding
