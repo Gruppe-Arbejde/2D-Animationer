@@ -6,4 +6,4 @@ moveX = 0;
 moveY = 0;
 
 goingToStart = false;
-waitTime = 10;
+waitTime = 60;
