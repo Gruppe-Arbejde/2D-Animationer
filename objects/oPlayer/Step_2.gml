@@ -50,7 +50,6 @@ if (hspd == 0)
 if (image_index == 14) // Sets the bool to false when the animation is finished
 {
 	check = 0;
-	image_speed = 0;
 }
 }
 else
