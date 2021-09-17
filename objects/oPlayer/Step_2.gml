@@ -39,8 +39,25 @@ else
 image_speed = 1;
 if (hspd == 0)
 {
-sprite_index = spr_playerIdle;    
+	if (check = 1)
+{
+	sprite_index = spr_AttackRight;
+	
+	image_speed = 1;
+	
+	if (image_index == 14)
+	{
+		instance_create_layer(x,y, "instances",obj_bullet);
+	}
 }
+if (image_index	== 15)
+{
+	check = 0;
+}
+//sprite_index = spr_playerIdle;    
+}
+
+
 else
 {
 sprite_index = spr_playerRun;    

@@ -15,4 +15,5 @@ spriteRunLeft = spr_playerRunLeft;
 spriteRun = spr_playerRun; //animation for running
 spriteJump = spr_jump; //animation for jumping
 cooldown = 0;
+check = 0;
 localFrame = 0;
