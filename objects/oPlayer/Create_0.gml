@@ -14,7 +14,5 @@ spriteIdleLeft = spr_playerIdleLeft; //animation for iding
 spriteRunLeft = spr_playerRunLeft;
 spriteRun = spr_playerRun; //animation for running
 spriteJump = spr_jump; //animation for jumping
-spriteAttackt = spr_Attack; // Animation for attack
-spriteAttackLeft = spr_AttackLeft;
 cooldown = 0;
 localFrame = 0;
