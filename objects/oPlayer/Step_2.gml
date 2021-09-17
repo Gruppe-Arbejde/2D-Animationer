@@ -49,13 +49,11 @@ sprite_index = spr_playerRun;
 if (hspd != 0) image_xscale = sign(hspd)*2.2;
 
 }
-
-
 #endregion
 
 #region control the gravity and jumping
-var onTheFloor = place_meeting(x, y+1, oSolid);
 
+var onTheFloor = place_meeting(x, y+1, oSolid);
 if(onTheFloor)
 {
     vspd = 0;
@@ -79,16 +77,12 @@ else
         }
     }
 }
-
-
 #endregion
 
 #region control the attack animation
 if (mouse_check_button(mb_left) && cooldown <= 0) {
 	instance_create_layer(x,y, "instances", obj_bullet);
 	cooldown = 30;
-	//image_speed = 1;
-	sprite_index = spr_AttackRight;
 }
 cooldown -= 1;
 //image_angle = point_direction(x,y,mouse_x,mouse_y);
