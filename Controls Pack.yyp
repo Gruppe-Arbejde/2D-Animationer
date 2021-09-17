@@ -6,7 +6,6 @@
     {"id":{"name":"sfloor","path":"sprites/sfloor/sfloor.yy",},"order":0,},
     {"id":{"name":"snd_Collectible","path":"sounds/snd_Collectible/snd_Collectible.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
-    {"id":{"name":"spr_enemyIdle","path":"sprites/spr_enemyIdle/spr_enemyIdle.yy",},"order":20,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":7,},
     {"id":{"name":"spr_enemyRunLeft","path":"sprites/spr_enemyRunLeft/spr_enemyRunLeft.yy",},"order":23,},
     {"id":{"name":"oJumpThroughPlatform","path":"objects/oJumpThroughPlatform/oJumpThroughPlatform.yy",},"order":0,},
@@ -77,7 +76,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "Controls Pack",
