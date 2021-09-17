@@ -50,13 +50,13 @@ if (hspd == 0)
 if (image_index == 14) // Sets the bool to false when the animation is finished
 {
 	check = 0;
+	image_speed = 0;
 }
 }
 else
 {
 	sprite_index = spr_playerIdle;
 }
-
 }
 else
 {
@@ -112,6 +112,12 @@ scr_collisions();
 
 
 #endregion
+
+
+if (mouse_check_button(mb_left))
+{
+	check = 1;
+}
 
 
 
